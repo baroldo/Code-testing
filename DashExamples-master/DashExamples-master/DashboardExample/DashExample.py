@@ -13,7 +13,8 @@ regions = {'CA': 'Canada', 'GB': 'Great Britain', 'HK': 'Hong Kong',
 region2brief = dict([(regions[k], k) for k in regions])
 
 # Read multiple data set
-filepath = 'Data/Console_share_'
+
+filepath = 'C:/Users/Haz/OneDrive\Desktop/Code testing/DashExamples-master/DashExamples-master/DashboardExample/Data/DashBoardExample/Data/Console_share_'
 df = []
 for region in regions:
 	filepath_curr = filepath + region + '.csv'
